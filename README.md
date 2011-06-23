@@ -29,7 +29,7 @@ Download `@font-face` kits from Font Squirrel
 	<script src="js/jquery.lettering.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$("header h1, .features").lettering('words');
+			$("header h1, .features li").lettering('words');
 		});
 	</script>
 	

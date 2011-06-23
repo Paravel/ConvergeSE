@@ -5,12 +5,21 @@
 	<title>Converge SE</title>
 
 	<!-- webfonts -->
+	<link rel="stylesheet" href="fonts/ostrich-sans/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="fonts/learning-curve-pro/stylesheet.css" type="text/css" />
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="css/screen.css" type="text/css" />
 	
 	<!-- javascripts -->
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="js/jquery-1.6.1.min.js"></script>
+	<script src="js/jquery.lettering.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("header h1, .features li").lettering('words');
+		});
+	</script>
 
 </head>
 <body>

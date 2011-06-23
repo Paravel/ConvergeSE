@@ -45,10 +45,40 @@ header h1 {
 	padding: 1em 0;
 }
 
+#content .container {
+	background: url(../img/dots1.png) no-repeat center 7px;
+}
+
+.introp, .features { float: left; }
+
+.introp {
+	margin-bottom: 2.01em;
+	margin-right: 75px;
+	width: 566px;
+}
+
+.timeloc {
+	clear:both;
+}
+
 /* Typography
 ------------------------------------*/
 body {
 	color: #999999;
+	font: 40px/52px "OstrichSansMedium", sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+.timeloc {
+	font: 73px/1 'OstrichSansBlack', sans-serif;
+}
+
+.features li {
+	color: #000;
+	font-family: 'LearningCurveProRegular', cursive;
 }
 
 /* Elements
@@ -61,3 +91,130 @@ ul, ol {
 	list-style-type: none;
 }
 
+/* Lettering.js
+------------------------------------*/
+h1 .word1,
+h1 .word2 {
+	font-family: 'LearningCurveProRegular', cursive;
+	font-size: 62px;
+	text-transform: lowercase;
+}
+
+h1 .word3,
+h1 .word4 {
+	display: block;
+	font-family: 'OstrichSansBlack', sans-serif;
+	line-height: 1em;
+}
+
+h1 .word1,
+h1 .word2,
+h1 .word3 {
+	position: relative;
+	z-index: 20;
+}
+
+h1 .word3 {
+	color: #000;
+	font-size: 215px;
+	letter-spacing: -2px;
+	margin-top: 30px;
+	text-align: left;
+	width: 685px;
+}
+
+h1 .word4 {
+	background: url(../img/se_bg1.png) no-repeat;
+	color: #fff;
+	font-size: 175px;
+	height: 241px;
+	padding-left: 80px;
+	padding-top: 60px;
+	position: absolute;
+	top: 40px;
+	right:10px;
+	width: 295px;
+	text-align: center;
+	z-index: 10;
+}
+
+.features li span:first-child {
+	color: #999;
+	display: inline-block;
+	font-family: 'OstrichSansMedium', cursive;
+	width: 40px;
+}
+
+/* v2
+------------------------------------*/
+header {
+	background: #f2eee3;
+}
+
+h1,
+h1 .word3 {
+	color: #16537f;
+}
+
+h1 .word3 {
+	text-shadow: 3px 3px 0 #f2eee3, 6px 6px 0 #f0cc60;
+}
+
+h1 .word4 {
+	color: #f2eee3;
+	background-image: url(../img/se_bg2.png);
+}
+
+body, #content {
+	background: #16537f;
+	color: #f0cc60;
+}
+
+#content .container {
+	background-image: url(../img/dots2.png);
+}
+
+.features li {
+	color: #fff;
+}
+
+.features li span:first-child {
+	color: #f0cc60;
+}
+
+.timeloc {
+	color: #fff;
+}
+
+/* v3
+------------------------------------*/
+
+header {
+	background: url(../img/bg_texture.jpg) repeat-x center bottom;
+}
+
+h1 .word1,
+h1 .word2 {
+	display: inline-block;
+	-webkit-transform: skewY(-5deg);
+}
+
+h1 .word2 {
+	position: relative;
+	top: -9px;
+	margin-left: 3px;
+}
+
+h1 .word4 {
+	color: #211d1b;
+	color: rgba(33, 29, 27, 0.4);
+	background-image: url(../img/se_bg3.png);
+}
+
+
+#content {
+	background: url()
+}
+.timeloc {
+	color: #093a5e;
+}
